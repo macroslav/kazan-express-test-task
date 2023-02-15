@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kazan-express"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Isko <ilufkai2000@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kazan_express"}]
+
+[tool.poetry.dependencies]
+python = "^3.9,"
+scikit-learn = "^1.2.1"
+tqdm = "^4.64.1"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+jupyter = "^1.0.0"
+pyarrow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
